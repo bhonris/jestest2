@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 
-export const generateFizzBuzz = (value: string): number[] => {
+export const generateFizzBuzz = (value: string): any[] => {
   throw "Function not implemented"
 }
 
@@ -12,7 +12,7 @@ export enum Result {
 
 function FizzBuzz() {
   const [inputValue, setInputValue] = useState('')
-  const [resultValue, setResultValue] = useState<number[]>([])
+  const [resultValue, setResultValue] = useState<any[]>([])
   
   const displayResult = async (event: React.MouseEvent): Promise<void> => {
     const result = generateFizzBuzz(inputValue);

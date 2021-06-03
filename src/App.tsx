@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.png';
 import './App.css';
-import PalindromeChecker from './components/PalindromeChecker';
+import FizzBuzz from './components/FizzBuzz';
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
       </header>
-      <PalindromeChecker/>
+      <FizzBuzz/>
     </div>
   );
 }

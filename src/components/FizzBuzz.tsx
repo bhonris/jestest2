@@ -10,12 +10,7 @@ export enum Result {
   no = "Nope"
 }
 
-
-const sleep = async (ms: number) => {
-  return new Promise(resolve => setTimeout(resolve, ms))
-}
-
-function PalindromeChecker() {
+function FizzBuzz() {
   const [inputValue, setInputValue] = useState('')
   const [resultValue, setResultValue] = useState<number[]>([])
   
@@ -39,4 +34,4 @@ function PalindromeChecker() {
   
 }
 
-export default PalindromeChecker
+export default FizzBuzz
